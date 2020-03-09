@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Inecobank" verbose="1">
+	<test name="Regression suite">
+		<classes>
+		 	<class
+				name="am.qa.inecobank.test.fasttransfer.InecobankFastTransferTest">
+				 <!--  <methods>
+				    <include name="testUnistreamTransfer1" /> 
+				    <include name="testUnistreamTransfer2" />  
+				       <include name="testElectricityPaymentNegative" /> 
+		              <include name="testGasPaymentPositive" />  
+					 <include name="testGasPaymentNegative" />   
+				</methods>    -->
+			</class> 
+			
+		<!-- 	 <class
+				name="am.qa.inecobank.test.utilitypayment.InecobankUtilityPaymentTest">
+				  <methods>
+				     <include name="testElectricityPaymentPositive" /> 
+				      <include name="testElectricityPaymentNegative" /> 
+		              <include name="testGasPaymentPositive" />  
+					 <include name="testGasPaymentNegative" /> 
+				</methods>   
+			</class> --> 
+		</classes>
+	</test>
+</suite>
